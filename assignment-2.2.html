@@ -1,13 +1,13 @@
 <HTML>
 	<head>
-		<link rel="stylesheet" type="text/css" href="assignment-2.2.css">
+		<link rel="stylesheet" type="text/css" href="assignment3.css">
 		<script src="https://kit.fontawesome.com/3dff656c65.js" crossorigin="anonymous"></script>
 		<title>My CSS Practice Page</title>
-		<!-- Styles in the head of the document using the <style> tag-->
+		<!-- Styles in the head of the document using the <style> tag, overriding color-->
 		<style>
 			.style3 {
-				background-color: green;
-				color: whitesmoke;
+				background-color: #bdf0c5;
+				color: blue; 
 				padding-left: 10px
 				padding-right:10px;
 			h1{
@@ -27,8 +27,13 @@
 			<li><a href="assignment3.html">page 5</a></li>
 			</ul>
 		</nav>
+		<header>
+			<h2>stop and smell the roses...</h2>
+		</header>
+		<main>
 		<h1 style="color: #F7A8BA">My CSS Practice Page</h1> <!-- Inline styles (e.g. <h1 style="put something here...">-->
 		<!-- an image that has a particular alt text value-->
+		
 		<h4>I have always been a big fan of flowers.</h4>
 		<h5>so this page will pay hommage to that!</h5>
 		<img src="img4.jpg" alt="image of beautiful flowers" height="200" width="200" >
@@ -50,10 +55,11 @@
 		<!-- Float two items to the right, side by side-->
 		<p class = "floatright">As the most popular flower in the world, its no surprise that the rose dominates its season too. Symbolizing everything from deep romance and sensuality to joy and friendship, this spring flower is a true charmer that can be incorporated into any arrangement or bouquet. Spring is also the time to grab your fresh-cut garden roses as a fluffier, larger rose for trendy floral creations..</p>
 		<p class = "floatright"> The darling of the floral world de jure, the peony is an undeniable enchanter. Like the garden rose, it offers a fluffy, dramatic silhouette that truly makes the bouquet or arrangement. Peonies have a short season from April through May and June with blooms lasting only 10 days, which makes them expensive and limited. Indeed, many brides plan their weddings around this flowers season so they can use them to enhance their stunning spring wedding bouquets!</p>
-		<!--Use the "clear" style to force those elements below the floating elements.-->
+		<!--Use the "clear" style to force those elements below the floating elements.  -->
 		<p class = "clear"><a href="dog.pdf">I just want to warn you in advance. If you click on this text to will be led to a surprise. It is the greatest of surprises. So great, in fact, you probably want to be sitting down when the time comes, so that your legs do not give out and you do not have the wind knocked out of you. I know this is a lot of built up for this surprise. But trust me, it is worth it. Are you sitting? Don't lie. Okay, now you should click it.</a></p>
 
 		<p class="test-text">45% of the flowers managed by the floral industry die before they are even sold.</p>
+		<h4 class = "classy"> Below you will find a chart.</h4>
 
 		<table>
 			  <caption>Flower Statistics</caption>
@@ -78,7 +84,10 @@
 				<td>Carnations</td>
 			  </tr>
 		</table><br><br>
-
+		<!--override color -->
+		<h3 class="style3" style="color:#ba3269;"> I hope you have learned something new about flowers!</h3>
+		<h6 class = "h6class"> and enjoyed the sweet suprise!</h6>
+		</main>
 	</body>
 	<footer>Thank you for visiting this site!</footer>
 </HTML>
