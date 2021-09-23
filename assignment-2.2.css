@@ -54,6 +54,10 @@ color: #504F4F !important;
 
 }
 
+h4.classy{
+	color: #24285e;
+}
+
 h4, h5 {
 	color: #3140e8;
 }
@@ -62,8 +66,7 @@ ol li{
 	font-family: Courier;
 
 }
-/*Override a style by declaring it again (but differently)*/
-/*use a single selector instance to assign the same styles to multiple elements*/
+
 ol li{
 	font-family: Georgia;
 
@@ -149,9 +152,14 @@ nav li a {
 	padding: 20px 30px;
 }
 
-
+main{
+	border-style: double;
+	padding: 10px;
+}
 header{
 	background-color: #A8F7BF;
+	color: #707a6c;
+	padding-left: 10px;
 }
 
 footer{
@@ -162,6 +170,32 @@ footer{
 body{
 	background-color: #A8D6F7;
 }
+
+p{
+	color: green;
+
+}
+
+.style3{
+	color: #65660e;
+}
+
+/*Override a style by declaring it again (but differently)*/
+/*use a single selector instance to assign the same styles to multiple elements*/
+
+h3{
+	color: #153338;
+}
+
+/* Task 2.1: Override a style by declaring it again (but differently)*/
+h6{
+	color: blue;
+}
+
+h6{
+	color:purple;
+}
+
 
 .myImage{
 	background: url("img3.jpg");
