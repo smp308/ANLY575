@@ -1,5 +1,5 @@
 <?php
-define("ROOT_PATH", '/CHANGE/THIS/PATH/data-site/');
+define("ROOT_PATH", '/Users/stephanieplaza/Documents/GitHub/ANLY575/data-site/');
 define("CLASS_PATH", ROOT_PATH . '/classes/');
 define("TEMPLATE_PATH", ROOT_PATH . '/templates/');
 define("PROTOCOL", 'http://');
@@ -9,12 +9,13 @@ define("URL_ROOT", PROTOCOL . DOMAIN . SUBFOLDER);
 const TABLES = array(
 	'User' => 'users',
 	'Assignment' => 'assignments',
-	'Submission' => 'submissions'
+	'Submission' => 'submissions',
+	'Course' => 'courses',
 );
 const DB = array(
-	'host' => 'CHANGE-THIS-HOST',
-	'db'   => 'CHANGE-THIS-DATABASE-NAME',
-	'user' => 'CHANGE-THIS-USER-NAME',
-	'pass' => 'CHANGE-THIS-PASSWORD',
+	'host' => 'localhost',
+	'db'   => 'anly575',
+	'user' => 'anly575',
+	'pass' => 'DSANanly575',
 	'charset' => 'utf8mb4'
 );
