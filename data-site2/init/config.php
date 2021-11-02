@@ -2,7 +2,7 @@
 
 // localhost
 if ( ($_SERVER['HTTP_HOST'] == 'localhost') || ($_SERVER['HTTP_HOST'] == '127.0.0.1') ) {
-	define("ROOT_PATH", '/Users/stephanieplaza/Documents/GitHub/ANLY575/data-site2');
+	define("ROOT_PATH", '/Users/stephanieplaza/Documents/GitHub/ANLY575/data-site2/');
 	define("PROTOCOL", 'http://');
 	define("DOMAIN", 'localhost/');
 	define('DB', array(
@@ -27,8 +27,8 @@ if ( ($_SERVER['HTTP_HOST'] == 'localhost') || ($_SERVER['HTTP_HOST'] == '127.0.
 	));
 }
 
-define("ADMIN_EMAIL", 'smp308@georgetown.edu');
-define("CLASS_PATH", ROOT_PATH . '/classes/');
+define("ADMIN_EMAIL", 'PUT-YOUR-EMAIL-HERE');
+define("CLASS_PATH", ROOT_PATH . 'classes/');
 define("TEMPLATE_PATH", ROOT_PATH . '/templates/');
 define("SUBFOLDER", 'data-site2/');
 define("URL_ROOT", PROTOCOL . DOMAIN . SUBFOLDER);
