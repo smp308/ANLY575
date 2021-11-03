@@ -22,11 +22,11 @@ if (isset($_POST['id'])) {
 	} else {
 		$postId = $_POST['id'];
 	}
-	$postFirstname = $_POST['firstname'];
-	$postLastname = $_POST['lastname'];
+	$postFirstname = $_POST['first_name'];
+	$postLastname = $_POST['last_name'];
 	$postEmail = $_POST['email'];
 
-	if (!isset($_POST['id']) || !isset($_POST['firstname']) || !isset($_POST['lastname']) || !isset($_POST['email'])) { 
+	if (!isset($_POST['id']) || !isset($_POST['first_name']) || !isset($_POST['last_name']) || !isset($_POST['email'])) { 
 		echo $postError;
 		return;
 	}
@@ -52,10 +52,10 @@ $data = $user[0];
 
 $formStart = "<form action=\"user-delete.php?id={$getId}\" method=\"post\">\n";
 $userData .= "<input type=\"hidden\" name=\"id\" id=\"id\" value=\"{$data->id}\">\n";
-$userData .= "<input type=\"hidden\" name=\"firstname\" id=\"firstname\" value=\"{$data->firstname}\">\n";
-$userData .= "<input type=\"hidden\" name=\"lastname\" id=\"lastname\" value=\"{$data->lastname}\">\n";
+$userData .= "<input type=\"hidden\" name=\"first_name\" id=\"first_name\" value=\"{$data->first_name}\">\n";
+$userData .= "<input type=\"hidden\" name=\"last_name\" id=\"last_name\" value=\"{$data->last_name}\">\n";
 $userData .= "<input type=\"hidden\" name=\"email\" id=\"email\" value=\"{$data->email}\">\n";
-$userData .= "<p>Are you sure you want to delete {$data->firstname} {$data->lastname} ({$data->email})?</p>\n";
+$userData .= "<p>Are you sure you want to delete {$data->first_name} {$data->last_name} ({$data->email})?</p>\n";
 $confirm = "<p><a href=\"\"><input type=\"submit\" value=\"Delete\"> <a href=\"users.php\">Back to user list</a></p>\n";
 $formEnd = "</form>";
 

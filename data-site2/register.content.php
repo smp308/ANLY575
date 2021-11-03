@@ -14,10 +14,10 @@ $valueEmail = '';
 
 
 if (isset($_POST['firstname'])) {
-	$valueFirstName = $_POST['firstname'];
+	$valueFirstName = $_POST['first_name'];
 }
-if (isset($_POST['lastname'])) {
-	$valueLastName = $_POST['lastname'];
+if (isset($_POST['last_name'])) {
+	$valueLastName = $_POST['last_name'];
 }
 if (isset($_POST['email'])) {
 	$valueEmail = $_POST['email'];
@@ -31,11 +31,11 @@ $lastNameError = '';
 $emailError = '';
 $passwordError = '';
 if (is_array($registration)) {
-	if($registration['firstname']['status'] === false) {
-		$firstNameError = '<span class="formError">Error: ' . $registration['firstname']['message'] . '</span>';
+	if($registration['first_name']['status'] === false) {
+		$firstNameError = '<span class="formError">Error: ' . $registration['first_name']['message'] . '</span>';
 	}
-	if($registration['lastname']['status'] === false) {
-		$lastNameError = '<span class="formError">Error: ' . $registration['lastname']['message'] . '</span>';
+	if($registration['last_name']['status'] === false) {
+		$lastNameError = '<span class="formError">Error: ' . $registration['last_name']['message'] . '</span>';
 	}
 	if($registration['email']['status'] === false) {
 		$emailError = '<span class="formError">Error: ' . $registration['email']['message'] . '</span>';
@@ -59,15 +59,15 @@ if (is_array($registration)) {
 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
 	<p>Note: Your account must be approved by an administrator before you can log in.</p>
 
-<p><label for="firstname">First Name</label> 
+<p><label for="first_name">First Name</label> 
 	<span id="firstNameError"><?php echo $firstNameError; ?></span>
-	<input type="text" id="firstname" name="firstname" maxlength="255"  
+	<input type="text" id="first_name" name="first_name" maxlength="255"  
 	required aria-describedby="firstNameError" value="<?php echo $valueFirstName; ?>"></p>
 	
 
-<p><label for="lastname">Last Name</label> 
+<p><label for="last_name">Last Name</label> 
 	<span id="lastNameError"><?php echo $lastNameError; ?></span>
-	<input type="text" id="lastname" name="lastname" maxlength="255"  
+	<input type="text" id="last_name" name="last_name" maxlength="255"  
 	required aria-describedby="lastNameError" value="<?php echo $valueLastName; ?>"></p>
 	
 

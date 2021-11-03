@@ -1,6 +1,5 @@
 <?php
 include 'init/init.php';
-
 $values->title = 'Test Page';
 $values->heading = 'Test Page';
 

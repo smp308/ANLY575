@@ -28,8 +28,8 @@ $tableData = '';
 foreach ($users as $user) {
 	$tableData .= "<tr>\n";
 	$tableData .= "<td>{$user->id}</td>\n";
-	$tableData .= "<td>{$user->firstname}</td>\n";
-	$tableData .= "<td>{$user->lastname}</td>\n";
+	$tableData .= "<td>{$user->first_name}</td>\n";
+	$tableData .= "<td>{$user->last_name}</td>\n";
 	$tableData .= "<td>{$user->email}</td>\n";
 	$tableData .= "<td>{$user->approved}</td>\n";
 	if ($loggedIn) { 

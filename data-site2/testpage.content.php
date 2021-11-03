@@ -1,3 +1,7 @@
+<script>
+  console.log('Hello.');
+</script>
+
 <h2>Sample dialog</h2>
 
 <div id="deque-dialog" class="deque-dialog" data-id="first-deque-dialog">
@@ -33,6 +37,7 @@
   </form>
 </div>
 
+<div id = "myContainer">this is my container</div>
 <script>
 var data = ['Alabama','Alaska','American Samoa',
   'Arizona','Arkansas','California','Colorado','Connecticut',
@@ -61,3 +66,17 @@ input.setAttribute('data-validate','required');
 var form1 = document.getElementById('chooseState');
 deque.configureFormValidation(form1, {});
 </script>
+
+
+
+<script>
+  var1 = "Hello";
+  var2 = " World";
+  console.log(var1 + var2);
+  $("#myContainer").hmtl('hello universe').addClass("myClass").attr('aria-expanded', 'true');
+
+</script>
+
+
+
+
