@@ -1,0 +1,79 @@
+[23-Nov-2021 23:46:17 UTC] PHP Warning:  include(/Users/stephanieplaza/Documents/GitHub/ANLY575/data-site3/init/config.php): failed to open stream: No such file or directory in /home/stephan4/public_html/data-site3/init/init.php on line 6
+[23-Nov-2021 23:46:17 UTC] PHP Warning:  include(/Users/stephanieplaza/Documents/GitHub/ANLY575/data-site3/init/config.php): failed to open stream: No such file or directory in /home/stephan4/public_html/data-site3/init/init.php on line 6
+[23-Nov-2021 23:46:17 UTC] PHP Warning:  include(): Failed opening '/Users/stephanieplaza/Documents/GitHub/ANLY575/data-site3/init/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/stephan4/public_html/data-site3/init/init.php on line 6
+[23-Nov-2021 23:46:17 UTC] PHP Warning:  Use of undefined constant CLASS_PATH - assumed 'CLASS_PATH' (this will throw an Error in a future version of PHP) in /home/stephan4/public_html/data-site3/init/init.php on line 8
+[23-Nov-2021 23:46:17 UTC] PHP Warning:  include(CLASS_PATHBase.class.php): failed to open stream: No such file or directory in /home/stephan4/public_html/data-site3/init/init.php on line 8
+[23-Nov-2021 23:46:17 UTC] PHP Warning:  include(CLASS_PATHBase.class.php): failed to open stream: No such file or directory in /home/stephan4/public_html/data-site3/init/init.php on line 8
+[23-Nov-2021 23:46:17 UTC] PHP Warning:  include(): Failed opening 'CLASS_PATHBase.class.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/stephan4/public_html/data-site3/init/init.php on line 8
+[23-Nov-2021 23:46:17 UTC] PHP Warning:  Use of undefined constant CLASS_PATH - assumed 'CLASS_PATH' (this will throw an Error in a future version of PHP) in /home/stephan4/public_html/data-site3/init/init.php on line 9
+[23-Nov-2021 23:46:17 UTC] PHP Warning:  include(CLASS_PATHSession.class.php): failed to open stream: No such file or directory in /home/stephan4/public_html/data-site3/init/init.php on line 9
+[23-Nov-2021 23:46:17 UTC] PHP Warning:  include(CLASS_PATHSession.class.php): failed to open stream: No such file or directory in /home/stephan4/public_html/data-site3/init/init.php on line 9
+[23-Nov-2021 23:46:17 UTC] PHP Warning:  include(): Failed opening 'CLASS_PATHSession.class.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/stephan4/public_html/data-site3/init/init.php on line 9
+[23-Nov-2021 23:46:17 UTC] PHP Warning:  Use of undefined constant CLASS_PATH - assumed 'CLASS_PATH' (this will throw an Error in a future version of PHP) in /home/stephan4/public_html/data-site3/init/init.php on line 10
+[23-Nov-2021 23:46:17 UTC] PHP Warning:  include(CLASS_PATHDatabase.class.php): failed to open stream: No such file or directory in /home/stephan4/public_html/data-site3/init/init.php on line 10
+[23-Nov-2021 23:46:17 UTC] PHP Warning:  include(CLASS_PATHDatabase.class.php): failed to open stream: No such file or directory in /home/stephan4/public_html/data-site3/init/init.php on line 10
+[23-Nov-2021 23:46:17 UTC] PHP Warning:  include(): Failed opening 'CLASS_PATHDatabase.class.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/stephan4/public_html/data-site3/init/init.php on line 10
+[23-Nov-2021 23:46:17 UTC] PHP Warning:  Use of undefined constant CLASS_PATH - assumed 'CLASS_PATH' (this will throw an Error in a future version of PHP) in /home/stephan4/public_html/data-site3/init/init.php on line 11
+[23-Nov-2021 23:46:17 UTC] PHP Warning:  include(CLASS_PATHPage.class.php): failed to open stream: No such file or directory in /home/stephan4/public_html/data-site3/init/init.php on line 11
+[23-Nov-2021 23:46:17 UTC] PHP Warning:  include(CLASS_PATHPage.class.php): failed to open stream: No such file or directory in /home/stephan4/public_html/data-site3/init/init.php on line 11
+[23-Nov-2021 23:46:17 UTC] PHP Warning:  include(): Failed opening 'CLASS_PATHPage.class.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/stephan4/public_html/data-site3/init/init.php on line 11
+[23-Nov-2021 23:46:17 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/stephan4/public_html/data-site3/init/init.php on line 17
+[23-Nov-2021 23:46:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Session' not found in /home/stephan4/public_html/data-site3/init/init.php:20
+Stack trace:
+#0 /home/stephan4/public_html/data-site3/users.php(4): include()
+#1 {main}
+  thrown in /home/stephan4/public_html/data-site3/init/init.php on line 20
+[23-Nov-2021 23:47:43 UTC] PHP Warning:  Use of undefined constant PROTOCOL - assumed 'PROTOCOL' (this will throw an Error in a future version of PHP) in /home/stephan4/public_html/data-site3/init/config.php on line 34
+[23-Nov-2021 23:47:43 UTC] PHP Warning:  include(/home/stephan4/public_html/data-site2classes/Base.class.php): failed to open stream: No such file or directory in /home/stephan4/public_html/data-site3/init/init.php on line 8
+[23-Nov-2021 23:47:43 UTC] PHP Warning:  include(/home/stephan4/public_html/data-site2classes/Base.class.php): failed to open stream: No such file or directory in /home/stephan4/public_html/data-site3/init/init.php on line 8
+[23-Nov-2021 23:47:43 UTC] PHP Warning:  include(): Failed opening '/home/stephan4/public_html/data-site2classes/Base.class.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/stephan4/public_html/data-site3/init/init.php on line 8
+[23-Nov-2021 23:47:43 UTC] PHP Warning:  include(/home/stephan4/public_html/data-site2classes/Session.class.php): failed to open stream: No such file or directory in /home/stephan4/public_html/data-site3/init/init.php on line 9
+[23-Nov-2021 23:47:43 UTC] PHP Warning:  include(/home/stephan4/public_html/data-site2classes/Session.class.php): failed to open stream: No such file or directory in /home/stephan4/public_html/data-site3/init/init.php on line 9
+[23-Nov-2021 23:47:43 UTC] PHP Warning:  include(): Failed opening '/home/stephan4/public_html/data-site2classes/Session.class.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/stephan4/public_html/data-site3/init/init.php on line 9
+[23-Nov-2021 23:47:43 UTC] PHP Warning:  include(/home/stephan4/public_html/data-site2classes/Database.class.php): failed to open stream: No such file or directory in /home/stephan4/public_html/data-site3/init/init.php on line 10
+[23-Nov-2021 23:47:43 UTC] PHP Warning:  include(/home/stephan4/public_html/data-site2classes/Database.class.php): failed to open stream: No such file or directory in /home/stephan4/public_html/data-site3/init/init.php on line 10
+[23-Nov-2021 23:47:43 UTC] PHP Warning:  include(): Failed opening '/home/stephan4/public_html/data-site2classes/Database.class.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/stephan4/public_html/data-site3/init/init.php on line 10
+[23-Nov-2021 23:47:43 UTC] PHP Warning:  include(/home/stephan4/public_html/data-site2classes/Page.class.php): failed to open stream: No such file or directory in /home/stephan4/public_html/data-site3/init/init.php on line 11
+[23-Nov-2021 23:47:43 UTC] PHP Warning:  include(/home/stephan4/public_html/data-site2classes/Page.class.php): failed to open stream: No such file or directory in /home/stephan4/public_html/data-site3/init/init.php on line 11
+[23-Nov-2021 23:47:43 UTC] PHP Warning:  include(): Failed opening '/home/stephan4/public_html/data-site2classes/Page.class.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/stephan4/public_html/data-site3/init/init.php on line 11
+[23-Nov-2021 23:47:43 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/stephan4/public_html/data-site3/init/init.php on line 17
+[23-Nov-2021 23:47:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Session' not found in /home/stephan4/public_html/data-site3/init/init.php:20
+Stack trace:
+#0 /home/stephan4/public_html/data-site3/users.php(4): include()
+#1 {main}
+  thrown in /home/stephan4/public_html/data-site3/init/init.php on line 20
+[23-Nov-2021 23:49:25 UTC] PHP Warning:  Use of undefined constant PROTOCOL - assumed 'PROTOCOL' (this will throw an Error in a future version of PHP) in /home/stephan4/public_html/data-site3/init/config.php on line 34
+[23-Nov-2021 23:49:25 UTC] PHP Warning:  include(/home/stephan4/public_html/data-site3classes/Base.class.php): failed to open stream: No such file or directory in /home/stephan4/public_html/data-site3/init/init.php on line 8
+[23-Nov-2021 23:49:25 UTC] PHP Warning:  include(/home/stephan4/public_html/data-site3classes/Base.class.php): failed to open stream: No such file or directory in /home/stephan4/public_html/data-site3/init/init.php on line 8
+[23-Nov-2021 23:49:25 UTC] PHP Warning:  include(): Failed opening '/home/stephan4/public_html/data-site3classes/Base.class.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/stephan4/public_html/data-site3/init/init.php on line 8
+[23-Nov-2021 23:49:25 UTC] PHP Warning:  include(/home/stephan4/public_html/data-site3classes/Session.class.php): failed to open stream: No such file or directory in /home/stephan4/public_html/data-site3/init/init.php on line 9
+[23-Nov-2021 23:49:25 UTC] PHP Warning:  include(/home/stephan4/public_html/data-site3classes/Session.class.php): failed to open stream: No such file or directory in /home/stephan4/public_html/data-site3/init/init.php on line 9
+[23-Nov-2021 23:49:25 UTC] PHP Warning:  include(): Failed opening '/home/stephan4/public_html/data-site3classes/Session.class.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/stephan4/public_html/data-site3/init/init.php on line 9
+[23-Nov-2021 23:49:25 UTC] PHP Warning:  include(/home/stephan4/public_html/data-site3classes/Database.class.php): failed to open stream: No such file or directory in /home/stephan4/public_html/data-site3/init/init.php on line 10
+[23-Nov-2021 23:49:25 UTC] PHP Warning:  include(/home/stephan4/public_html/data-site3classes/Database.class.php): failed to open stream: No such file or directory in /home/stephan4/public_html/data-site3/init/init.php on line 10
+[23-Nov-2021 23:49:25 UTC] PHP Warning:  include(): Failed opening '/home/stephan4/public_html/data-site3classes/Database.class.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/stephan4/public_html/data-site3/init/init.php on line 10
+[23-Nov-2021 23:49:25 UTC] PHP Warning:  include(/home/stephan4/public_html/data-site3classes/Page.class.php): failed to open stream: No such file or directory in /home/stephan4/public_html/data-site3/init/init.php on line 11
+[23-Nov-2021 23:49:25 UTC] PHP Warning:  include(/home/stephan4/public_html/data-site3classes/Page.class.php): failed to open stream: No such file or directory in /home/stephan4/public_html/data-site3/init/init.php on line 11
+[23-Nov-2021 23:49:25 UTC] PHP Warning:  include(): Failed opening '/home/stephan4/public_html/data-site3classes/Page.class.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/stephan4/public_html/data-site3/init/init.php on line 11
+[23-Nov-2021 23:49:25 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/stephan4/public_html/data-site3/init/init.php on line 17
+[23-Nov-2021 23:49:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Session' not found in /home/stephan4/public_html/data-site3/init/init.php:20
+Stack trace:
+#0 /home/stephan4/public_html/data-site3/users.php(4): include()
+#1 {main}
+  thrown in /home/stephan4/public_html/data-site3/init/init.php on line 20
+[23-Nov-2021 23:49:47 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/stephan4/public_html/data-site3/init/init.php on line 17
+[23-Nov-2021 23:49:47 UTC] PHP Warning:  include_once(/home/stephan4/public_html/data-site3classes/User.class.php): failed to open stream: No such file or directory in /home/stephan4/public_html/data-site3/classes/Database.class.php on line 34
+[23-Nov-2021 23:49:47 UTC] PHP Warning:  include_once(): Failed opening '/home/stephan4/public_html/data-site3classes/User.class.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/stephan4/public_html/data-site3/classes/Database.class.php on line 34
+[23-Nov-2021 23:49:47 UTC] PHP Fatal error:  Class 'User' not found in /home/stephan4/public_html/data-site3/classes/Database.class.php on line 61
+[23-Nov-2021 23:52:26 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/stephan4/public_html/data-site3/init/init.php on line 17
+[23-Nov-2021 23:53:15 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/stephan4/public_html/data-site3/init/init.php on line 17
+[23-Nov-2021 23:54:24 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/stephan4/public_html/data-site3/init/init.php on line 17
+[23-Nov-2021 23:54:41 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/stephan4/public_html/data-site3/init/init.php on line 17
+[01-Dec-2021 01:49:29 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/stephan4/public_html/data-site3/init/init.php on line 17
+[01-Dec-2021 02:14:31 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/stephan4/public_html/data-site3/init/init.php on line 17
+[01-Dec-2021 02:16:26 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/stephan4/public_html/data-site3/init/init.php on line 18
+[01-Dec-2021 02:21:56 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/stephan4/public_html/data-site3/init/init.php on line 18
+[01-Dec-2021 02:34:33 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/stephan4/public_html/data-site3/init/init.php on line 18
+[01-Dec-2021 02:47:31 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/stephan4/public_html/data-site3/classes/Session.class.php on line 79
+[01-Dec-2021 02:49:04 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/stephan4/public_html/data-site3/classes/Session.class.php on line 79
+[01-Dec-2021 02:56:03 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/stephan4/public_html/data-site3/classes/Session.class.php on line 79
