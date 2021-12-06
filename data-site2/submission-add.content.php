@@ -6,8 +6,8 @@ $db = new Database();
 include CLASS_PATH . 'Submission.class.php';
 $sub = new Submission();
 if ($sub->add() === true) {
-	return;
-}
+return;
+ }
 
 $sql = 'SELECT `id`, `name` FROM `courses`';
 

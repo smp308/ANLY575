@@ -32,7 +32,7 @@ $ui = new UI();
 
 echo $ui->selectList('assignmentSelect', 'assignment_id', $assignmentOptionsList, 'Step 2: Choose an Assignment', true);
 
-$sql = 'SELECT `id`, `firstname`, `lastname` FROM `users`';
+$sql = 'SELECT `id`, `first_name`, `last_name` FROM `users`';
 
 if (!$users = $db->object('User', $sql)) {
 	echo '<p>Error: No users available</p>';
@@ -40,7 +40,7 @@ if (!$users = $db->object('User', $sql)) {
 }
 $studentOptionsList = array();
 foreach ($users as $k => $userObject) {
-	$studentOptionsList[$userObject->id] = $userObject->firstname . ' ' . $userObject->lastname;
+	$studentOptionsList[$userObject->id] = $userObject->first_name . ' ' . $userObject->last_name;
 }
 
 echo $ui->selectList('studentSelect', 'user_id', $studentOptionsList, 'Step 3: Choose a Student', true);

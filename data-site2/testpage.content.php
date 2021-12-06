@@ -37,7 +37,14 @@
   </form>
 </div>
 
-<div id = "myContainer">this is my container</div>
+<style>
+  .myClass{
+    background-color: red;
+    color:white;
+  }
+</style>
+
+<div id = "myContainer"></div>
 <script>
 var data = ['Alabama','Alaska','American Samoa',
   'Arizona','Arkansas','California','Colorado','Connecticut',

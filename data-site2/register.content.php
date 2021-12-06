@@ -23,7 +23,7 @@ if (isset($_POST['email'])) {
 	$valueEmail = $_POST['email'];
 }
 if (isset($_POST['password'])) {
-	$valueEmail = $_POST['password'];
+	$valuePassword = $_POST['password'];
 }
 
 $firstNameError = '';

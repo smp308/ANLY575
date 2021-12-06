@@ -25,8 +25,8 @@ $sql = '
 SELECT 
 	`s`.`id`,
 	`s`.`user_id`,
-	`u`.`firstname` AS `user_firstname`,
-	`u`.`lastname` AS 	`user_lastname`,
+	`u`.`first_name` AS `user_firstname`,
+	`u`.`last_name` AS 	`user_lastname`,
 	`s`.`assignment_id`,
 	`a`.`name` AS `assignment_name`,
 	`s`.`datetime`,

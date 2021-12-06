@@ -31,7 +31,7 @@ class Database {
 	 * Match the class names with the corresponding table names
 	 */
 	function tableName($objectType) {
-		include_once('classes/'. $objectType . '.class.php');
+		include_once(ROOT_PATH . 'classes/'. $objectType . '.class.php');
 		if (array_key_exists($objectType, TABLES)) {
 			return TABLES[$objectType];
 		} else {
