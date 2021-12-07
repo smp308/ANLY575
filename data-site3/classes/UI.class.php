@@ -74,7 +74,7 @@ class UI extends Base {
 		}
 	}
 
-	function simpleTable($caption, array $headers, array $data, $attributes = null){
+	function simpleTable($caption, array $headers, array $tableRows, $attributes = null){ 
 		if (!$caption) {
 			echo ' Error: the caption of the table must not be empty.';
 			return;
@@ -84,7 +84,7 @@ class UI extends Base {
 			echo ' Error: the headers of the table must not be empty.';
 			return;
 		}
-		if (!$data) {
+		if (!$tableRows) {
 			echo ' Error: the data of the table must not be empty.';
 			return;
 		}
@@ -101,16 +101,19 @@ class UI extends Base {
 		$tableEnd = "</table>\n";
 
 		$tableData = '';
+
+
+			foreach ($tableRows as $key => $innerArray) {
+// put code here to generate the <tr>
+				$tableData .= "<tr>\n";
+		foreach ($innerArray as $tableCell) {
+// put code here to generate the <td></td> and the content inside it.
+				 $tableData .= "<td>{$tableCell}</td>\n";
+				}
+// put code here to generate the closing </tr>
+				$tableData .= "</tr>\n";
+			}
 		
-		foreach ($data as $item) {
-			$tableData .= "<tr data-user-id=\"user-{$item->id}\">\n";
-			$tableData .= "<td>{$item->id}</td>\n";
-			$tableData .= "<td>{$item->first_name}</td>\n";
-			$tableData .= "<td>{$item->last_name}</td>\n";
-			$tableData .= "<td>{$item->email}</td>\n";
-			$tableData .= "<td>{$item->approved}</td>\n";
-			$tableData .= "</tr>\n";
-		}
 		return $tableStart . $tableData . $tableEnd;
 	}
 
@@ -152,8 +155,6 @@ class UI extends Base {
  //   		echo "</tr>";
 	// 	echo '</tbody></table>';
 	// }
-
-
 
 
 
