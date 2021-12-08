@@ -1,29 +1,54 @@
 <?php
+
 $db = new Database();
 
 $session = new Session();
 $loggedIn = $session->checkLoginStatus();
 
-$users = $db->object('User');
+$sql = '
+SELECT 
+    `u`.`id`, 
+    `u`.`first_name`,
+    `u`.`last_name`,
+    `u`.`email`,
+    `u`.`approved`
+FROM `users` AS `u`
+';
+
+function fetchAll($query = null) {
+        $pdo = $this->pdo();
+        $data = $pdo->query($query)->fetchAll(PDO::FETCH_OBJ);
+        return $data;
+    }
+
+$users = $db->fetchAll($sql);
+
+#$users = $db->object('User');
 
 $caption = 'Users';
 $headers = array('ID', 'First Name', 'Last Name', 'Email', 'Approved');
-$data = $users; // note: this would be an array of rows from a database query
+$data = $users; 
 $attributes = array('id' => 'userTable', 'class' => 'somePredefinedClass');
 
-include CLASS_PATH . 'UI.class.php'; // if the UI file has not been included yet
-$ui = new UI(); // if the UI class has not been called yet;
+include CLASS_PATH . 'UI.class.php'; 
+$ui = new UI(); 
 
 // Call tables and dialog
 $table = $ui->simpleTable($caption, $headers, $data, $attributes);
 $table1 = $ui->preload();
 $dialog = $ui->dialog();
 
-// Call tables and dialog
-$table = $ui->simpleTable($caption, $headers, $data, $attributes);
-$table1 = $ui->preload();
-$dialog = $ui->dialog();
 
+$tableRows = array();
+$counter = 0;
+foreach ($users as $user) {
+$tableRows[$counter][] = $user->id;
+$tableRows[$counter][] = $user->first_name ;
+$tableRows[$counter][] = $user->last_name;
+$tableRows[$counter][] = $user->email;
+$tableRows[$counter][] = $user->approved;
+$counter++; // increment the counter by 1
+}
 
 echo $dialog;
 echo "<div class='user-table'>";
@@ -71,6 +96,9 @@ $( document ).ready(function() {
 });
 </script>
 ';
+
+?>
+
 
 ?>
 
