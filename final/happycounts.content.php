@@ -60,12 +60,12 @@ $counter++; // increment the counter by 1
 $table = $ui->simpleTable($caption, $headers, $tableRows, $attributes);
 $dialog = $ui->dialog();
 
+echo 'As defined by the World Happiness Report, "Positive affect comprises the average frequency of happiness, laughter and enjoyment on the previous day, and negative affect comprises the average frequency of worry, sadness and anger on the previous day. The affect measures thus lie between 0 and 1".<br><br>';
+echo 'To see some visualization on this table, click <a href="http://localhost/final/happycountsviz.php"> here</a>. or <a href="http://localhost/final/happycount2.php"> here</a>.<br><br>';
+
 echo $dialog;
 echo "<div class='happiest-table'>";
 echo $table;
 echo  "</div>"; 
-
-
-echo 'To see some visualization on this table, click <a href="http://localhost/final/joined2.php"> here</a>.';
 
 ?>

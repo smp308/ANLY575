@@ -7,4 +7,5 @@
 	<li><a href="<?php echo URL_ROOT; ?>joined.php">Temperature Results</a></li>
 	<li><a href="<?php echo URL_ROOT; ?>safety.php">Safety</a></li>
 	<li><a href="<?php echo URL_ROOT; ?>happycounts.php">Feelings</a></li>
+	<li><a href="<?php echo URL_ROOT; ?>win.php">Yearly Winnings</a></li>
 </ul>

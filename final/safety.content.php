@@ -75,12 +75,13 @@ $counter++; // increment the counter by 1
 $table = $ui->simpleTable($caption, $headers, $tableRows, $attributes);
 $dialog = $ui->dialog();
 
+echo 'To see some visualization on this table, click <a href="http://localhost/final/viz.html"> here</a>.<br><br>';
+
+
 echo $dialog;
 echo "<div class='joined-table'>";
 echo $table;
 echo  "</div>"; 
-
-echo 'To see some visualization on this table, click <a href="http://localhost/final/viz.html"> here</a>.';
 
 
 ?>
